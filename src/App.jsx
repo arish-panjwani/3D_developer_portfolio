@@ -20,6 +20,7 @@ const App = () => {
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         {/* <Feedbacks /> */}
+        <Navbar />
         <div className="relative z-0">
           <div
             style={{
@@ -27,7 +28,6 @@ const App = () => {
               backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(6,8,22, 1)), url('/src/assets/herobg.png')`,
             }}
             className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-            <Navbar />
             <Hero />
           </div>
           <About />
