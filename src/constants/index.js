@@ -1,28 +1,30 @@
+/** @format */
+
 import {
-  mobile,
+  android,
   backend,
+  carrent,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
+  dypatil,
+  figma,
+  git,
+  html,
+  javascript,
+  jobit,
+  lcit,
+  mobile,
+  mongodb,
+  nodejs,
+  python,
   reactjs,
   redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  tradebulls,
+  tripguide,
+  typescript,
+  web,
+  zype,
 } from "../assets";
 
 export const navLinks = [
@@ -35,6 +37,14 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "education",
+    title: "Education",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -42,19 +52,35 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
     title: "React Native Developer",
     icon: mobile,
+  },
+  {
+    title: "React Developer",
+    icon: web,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Analyst",
+    icon: creator,
+  },
+  {
+    title: "Data Engineer",
+    icon: creator,
+  },
+  {
+    title: "Data Scientist",
+    icon: creator,
+  },
+  {
+    title: "ML Engineer",
+    icon: creator,
+  },
+  {
+    title: "Business Analyst",
     icon: creator,
   },
 ];
@@ -85,8 +111,12 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Android",
+    icon: android,
   },
   {
     name: "Node JS",
@@ -101,71 +131,61 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer",
+    company_name: "Tradebulls Securities Pvt. Ltd.",
+    icon: tradebulls,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Dec 2020 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Built a cross-platform mobile app using React Native, achieving over 100K downloads on the Play Store",
+      " Implemented API calls and data handling using Axios and Redux to enhance app functionality.",
+      "Improved app performance by creating reusable components and incorporating TypeScript for efficient coding practices.",
+      "Conducted debugging, bug fixing, and thorough testing to ensure smooth app functionality and reliability.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "SDE - 1",
+    company_name: "Easy Platform Services Pvt. Ltd.",
+    icon: zype,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Apr 2023 - Apr 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and updated Android, iOS, and Web modules with React Native based on product and design team inputs.",
+      "Worked closely with design, backend, QA, and product teams, contributing to agile processes and daily stand-ups.",
+      "Addressed bugs reported by QA/users and conducted Proof of Concepts to explore and adopt new tools and techniques.",
+      " Maintained detailed project documentation for knowledge sharing and process transparency across teams.",
     ],
   },
+];
+
+const qualifications = [
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    title: "Bachelors in Computer Engg.",
+    company_name:
+      "Dr. D. Y. Patil School of Engineering and Technology, Pune, India",
+    icon: dypatil,
+    iconBg: "#383E56",
+    date: "Batch of 2020",
+    points: [],
+  },
+  {
+    title: "Post Graduate Diploma in A.I. & Data Science",
+    company_name: "Loyalist College in Toronto, Canada",
+    icon: lcit,
+    iconBg: "#383E56",
+    date: "Currently Pursuing",
+    points: [],
   },
 ];
 
@@ -262,4 +282,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  experiences,
+  projects,
+  qualifications,
+  services,
+  technologies,
+  testimonials,
+};
