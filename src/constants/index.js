@@ -4,6 +4,8 @@ import {
   android,
   backend,
   calsnap,
+  threejs_portfolio,
+  comingSoon,
   creator,
   css,
   dypatil,
@@ -233,6 +235,52 @@ const projects = [
     ],
     image: calsnap,
     source_code_link: "https://github.com/arish-panjwani/cal-snap-react",
+  },
+  {
+    name: "3D Portfolio Website",
+    description:
+      "This is a 3D portfolio website made using react and three.js. It has a beautiful UI and is responsive and full of animations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: threejs_portfolio,
+    source_code_link:
+      "https://github.com/arish-panjwani/3D_developer_portfolio",
+  },
+  {
+    name: "More Coming Soon...",
+    description:
+      "Fresh new innovative front-end, Data Visualisation and Data Science Projects coming soon!!!! Stay tuned for more updates.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "python",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "powerBI",
+        color: "green-text-gradient",
+      },
+    ],
+    image: comingSoon,
   },
   // {
   //   name: "Job IT",

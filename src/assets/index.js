@@ -35,6 +35,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import calsnap from "./calsnap.png";
+import threejs_portfolio from "./threejs_portfolio.png";
+import comingSoon from "./comingSoon.png";
 
 export {
   logo,
@@ -72,4 +74,6 @@ export {
   dypatil,
   lcit,
   calsnap,
+  threejs_portfolio,
+  comingSoon,
 };
