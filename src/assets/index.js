@@ -34,6 +34,7 @@ import zype from "./company/zype.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import calsnap from "./calsnap.png";
 
 export {
   logo,
@@ -70,4 +71,5 @@ export {
   zype,
   dypatil,
   lcit,
+  calsnap,
 };
