@@ -17,6 +17,8 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import TypingEffect from "./TypingEffect";
+import ResumeButton from "./ResumeButton";
+import AllRightsReserved from "./AllRightsReserved";
 
 export {
   Hero,
@@ -34,4 +36,6 @@ export {
   ComputersCanvas,
   StarsCanvas,
   TypingEffect,
+  AllRightsReserved,
+  ResumeButton,
 };

@@ -13,6 +13,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  AllRightsReserved,
 } from "./components";
 
 const App = () => {
@@ -25,7 +26,7 @@ const App = () => {
           <div
             style={{
               opacity: 0.8,
-              backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(6,8,22, 1)), url('/src/assets/herobg.png')`,
+              backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(6,8,22, 1)), url('./assets/herobg.png')`,
             }}
             className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Hero />
@@ -37,6 +38,7 @@ const App = () => {
           <Works />
           <Contact />
           <StarsCanvas />
+          <AllRightsReserved />
         </div>
       </div>
     </BrowserRouter>

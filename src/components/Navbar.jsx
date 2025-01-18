@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import ResumeButton from "./ResumeButton";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -61,6 +62,9 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <div className="mt-1 lg:block hidden">
+          <ResumeButton />
+        </div>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
