@@ -26,7 +26,7 @@ const App = () => {
           <div
             style={{
               opacity: 0.8,
-              backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(6,8,22, 1)), url('./assets/herobg.png')`,
+              backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(6,8,22, 1)), url('https://i.postimg.cc/k4pgzs6F/herobg.jpg')`,
             }}
             className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Hero />
