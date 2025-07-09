@@ -32,9 +32,6 @@ npm install
 npm run dev
 ```
 
-## 🌐 Live Site
-Check it out here: https://arishpanjwani.netlify.app
-
 ## 🙏 Credits
 This project is a fork of the 3D Developer Portfolio by Adrian Hajdin. All rights and credit for the original design go to him.
 
